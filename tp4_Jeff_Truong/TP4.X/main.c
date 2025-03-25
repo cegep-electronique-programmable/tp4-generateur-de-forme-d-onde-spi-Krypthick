@@ -243,5 +243,5 @@ void out_dig(uint8_t x)
 	SPI_ExchangeByte(0x11);  // ecriture, pot. 0
 	SPI_ExchangeByte(x);
 	IO_RA5_SetHigh();
-	__delay_ms(1);
+	//__delay_ms(1);
 }
